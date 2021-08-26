@@ -1,12 +1,10 @@
+import Routes from './routes';
+
 
 function App() {
   return (
     <div>
-      <header>
-        <p>
-          Central Meetups
-        </p>
-      </header>
+        <Routes />
     </div>
   );
 }
